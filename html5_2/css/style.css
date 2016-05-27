@@ -1,0 +1,79 @@
+html{
+	background: #7ea8ef;
+}
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+	background: white;
+}
+
+tr.first_line > td{
+   border-bottom: 16px solid black;
+   border-right: 16px solid black;
+   height: 80px;
+
+}
+tr.first_line td:last-child{
+	border-right: 0px white;
+}
+tr.second_line td,
+tr.third_line td,
+tr.fourth_line td,
+tr.fifth_line td,
+tr.sixth_line td{
+	border-bottom: 16px solid black;
+    border-right: 16px solid black;
+    border-top: 16px solid black;
+}
+tr.second_line td,
+tr.third_line td{
+     height: 270px;
+}
+tr.fourth_line td,
+tr.fifth_line td{
+	height: 130px;
+}
+tr.sixth_line td,
+tr.seventh_line td{
+	height: 60px;
+}
+
+
+tr.seventh_line td{
+	border-bottom: 0px white;
+    border-right: 5px solid black;
+    border-top: 16px solid black;
+}
+tr.sixth_line td.fi{
+	border-bottom: 0px white;
+}
+
+tr.fifth_line td.yellow{
+    border-bottom: 0px white;
+    width: 80px;
+}
+tr.second_line td:last-child,
+tr.third_line td:last-child,
+tr.fourth_line td:last-child,
+tr.fifth_line td:last-child,
+tr.sixth_line td:last-child,
+tr.seventh_line td:last-child{
+		border-right: 0px white;
+}
+.red{
+	background: red;
+}
+.yellow{
+	background: yellow;
+}
+.blue{
+	background: blue;
+	width: 320px;
+}
+.black{
+	background: black;
+	width: 270px;
+}
+.fi{
+	width: 160px;
+}
