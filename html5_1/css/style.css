@@ -1,0 +1,204 @@
+html{
+	height: 1029px;
+}
+body{
+	margin: 0 auto;
+	height: 1024px;
+	width: 1212px;
+}
+.menu{
+	width: 1212px;
+	height: 42px;
+	background:url(../img/home.png) repeat;
+}
+.menu ul li{
+	float:left;
+	color: #60b5ed;
+	font-size: 14px;
+    padding: 14px;
+    font-family: "helvetica_neueregular";
+}
+.menu ul li:first-child{
+	margin-left: 484px;
+}
+.menu ul li:last-child{
+	margin-right: 20px;
+	background:linear-gradient(#4faedb, #2e7ac4);
+	border-left: 1px solid #55a1dc;
+	border-right: 1px solid #55a1dc;
+	color: white;
+
+}
+.menu ul li.img{
+	background: url(../img/flag.png) no-repeat left 50%;
+	padding-left: 40px;
+	color: white;
+
+}
+.menu ul li:hover{
+display: inline-block; 
+background:#4eabda;
+color: white;
+font-weight: 600;
+}
+.menu ul li.img:hover{
+	display: inline-block; 
+    background: url(../img/flag.png) no-repeat left 50%;
+
+}
+.menu ul li.minhas{
+	border-left: 1px solid #56a2dc;
+	height: 36px;
+	margin-top: 3px;
+	padding: 0;
+	width: 0px;
+}
+.content{
+	background: url(../img/fon.jpg) no-repeat;
+	height: 1024px;
+	width: 1212px;
+	position: relative;
+}
+.header{
+	height: 60px;
+	color: white;
+	width: 562px;
+	left:29%;
+	background-color: rgba(0, 0, 4, 0.5);
+	margin-top:214px;
+	position: absolute;
+}
+
+.header span.cad{
+	padding-top: 26px;
+	position: absolute;
+	z-index: 1;
+	margin-left: 222px;
+	font-family: "helvetica_neueregular";
+	font-size: 24px;
+	font-weight: 500;
+}
+.regist{
+	height: 552px;
+	width: 562px;
+	left:29%;
+	background-color: rgba(0, 0, 4, 0.5);
+	position: absolute;
+	margin-top:276px;
+}
+.facebook{
+	padding-top: 28px;
+	margin-left: 143px;
+}
+.str1{
+    float: left;
+	height: 36px;
+	width: 122px;
+	border-bottom: 2px ridge #666666;
+	margin-left: 143px;
+}
+.OU{
+	height: 36px;
+	width: 32px;
+	float: left;
+	color: #999999;
+	margin-top: 30px;
+	text-align: center;
+	font-family: "helvetica_neueregular";
+	font-size: 14px;
+}
+.str{
+    float: left;
+	height: 36px;
+	width: 122px;
+	border-bottom: 2px ridge #666666;
+	overflow: hidden;
+}
+button{
+	width: 276px;
+	height: 35px;
+	padding: 0px;
+	border: 0px;
+	background: rgba(0, 0, 0, 0);
+}
+ input{
+ 	display:block;
+ 	margin: 0 auto;
+ 	background: #101010;
+ 	width: 277px;
+ 	height: 35px;
+ 	border: 0px;
+ 	border-bottom: 1px solid #494948;
+ 	margin-top: 20px;
+ 	color: white;
+ 	font-family: "helvetica_neueregular";
+	font-size: 14px;
+ }
+ input:hover::-webkit-input-placeholder{ 
+	color: white;
+}
+input:hover{
+background: rgba(24,78,129,1);
+background: -moz-linear-gradient(left, rgba(24,78,129,1) 0%, rgba(24,84,144,1) 50%, rgba(24,78,129,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(24,78,129,1)), color-stop(50%, rgba(24,84,144,1)), color-stop(100%, rgba(24,78,129,1)));
+background: -webkit-linear-gradient(left, rgba(24,78,129,1) 0%, rgba(24,84,144,1) 50%, rgba(24,78,129,1) 100%);
+background: -o-linear-gradient(left, rgba(24,78,129,1) 0%, rgba(24,84,144,1) 50%, rgba(24,78,129,1) 100%);
+background: -ms-linear-gradient(left, rgba(24,78,129,1) 0%, rgba(24,84,144,1) 50%, rgba(24,78,129,1) 100%);
+background: linear-gradient(to right, rgba(24,78,129,1) 0%, rgba(24,84,144,1) 50%, rgba(24,78,129,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#184e81', endColorstr='#184e81', GradientType=1 );
+border-bottom: 1px solid #689bcc;
+-webkit-box-shadow: 1px 1px 29px 5px rgba(80,138,181,1);
+-moz-box-shadow: 1px 1px 29px 5px rgba(80,138,181,1);
+box-shadow: 1px 1px 29px 5px rgba(80,138,181,1);
+
+}
+input.send{
+	display:inline;
+	width: 13px;
+	height: 13px;
+	margin-left: 143px;
+}
+
+input.send:hover{
+	box-shadow: none;
+}
+.sen{
+	color:white;
+	font-family: "helvetica_neueregular";
+	font-size: 14px;
+}
+input:last-child{
+	height: 33px;
+	width: 149px;
+	background: linear-gradient(#4faddb, #2e7ac4);
+	border-top: 2px solid black;
+	border-right: 1px solid #576e7c;
+	border-left: 1px solid #576e7c;
+	border-bottom: 12px solid #3686ca;
+	border-radius: 3px 3px 3px 3px;
+-moz-border-radius: 3px 3px 3px 3px;
+-webkit-border-radius: 3px 3px 3px 3px;
+border: 0px solid #000000;
+}
+input:last-child:hover{
+	box-shadow: none;
+}
+p{
+	color: #cccccc;
+	text-align: center;
+	font-family: "helvetica_neueregular";
+	font-size: 11px;
+}
+.text{
+	margin-top: 22px;
+}
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('../font/helveticaneue-thin-webfont.eot');
+    src: url('../font/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../font/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../font/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
